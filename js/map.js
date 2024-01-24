@@ -39,7 +39,7 @@ function map_interacion(local){
     if(local === "c_biaNina"){
         lugarNome.innerHTML = "Casa de biaTrufa e ninadoll"
         lugarDesc.innerHTML = "'sei la oq eu falo na descricap de uma casa' - <a href = 'participantes.html'>ninadoll</a> <br> <br> 'a mansão favorita de todos os participantes do LSMP' - <a href = 'participantes.html'>biaTrufa</a> "
-    }
+    } 
     if(local === "c_bradulim"){
         lugarNome.innerHTML = "Casa de Bradulimkk"
         lugarDesc.innerHTML = "Casa do participante <a href = 'participantes.html'>Bradulimkk</a>."
@@ -52,7 +52,10 @@ function map_interacion(local){
         lugarNome.innerHTML = "Bueiro de mikanalha"
         lugarDesc.innerHTML = "Uma base temporária que <a href = 'participantes.html'>mikanalha</a> construiu para ter um local próprio para ficar."
     }
-        // Código a ser executado após o tempo de espera
+    if(local === "doge"){
+        lugarNome.innerHTML = "Doge Dante"
+        lugarDesc.innerHTML = "Um lugar misterioso grudando o segredo dos 7 mares da internet, quem sabe one piece 2?"
+    }
     }, 500);
 
 }
