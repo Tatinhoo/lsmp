@@ -26,6 +26,7 @@ function map_interacion(local){
     }
     if(local === "v_estufa"){
         lugarNome.innerHTML = "Estufa da Vila"
+        lugarDesc.innerHTML = "estufa."
     }
     if(local === "v_tom"){
         lugarNome.innerHTML = "Homenagem a Tom"
@@ -41,6 +42,7 @@ function map_interacion(local){
     }
     if(local === "c_bradulim"){
         lugarNome.innerHTML = "Casa de Bradulimkk"
+        lugarDesc.innerHTML = "Casa do participante <a href = 'participantes.html'>Bradulimkk</a>."
     }
     if(local === "c_sofia"){
         lugarNome.innerHTML = "Casa de Sofiagamer2202"
