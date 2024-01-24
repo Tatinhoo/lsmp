@@ -12,9 +12,10 @@
     <meta name="msapplication-TileColor" content="#26a4ff">
     <meta name="theme-color" content="#26a4ff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/map.css">
 </head>
 <body>
+  
 
  <!--Nav Bar-->
     <nav class="navbar navbar-expand-lg" style="background-color: #26a4ff;">
@@ -44,7 +45,39 @@
         </div>
       </nav>
 
-    <img src="img/lsmp banner.png" width="100%" height="auto" alt="">
+      <div class="sidebar" id="sidebar">
+        <ul>
+            <div class="options">
+                <img src="img/participantes/eh.png" height="250px" alt="">
+                <li><h2 id="map-local-name">Nome do Lugar</h2></li>
+                <br>
+                <li><h5 id="map-local-description">descrição</h5></li>
+                <br><br>
+                <button onclick="fechar_mapa()">Fechar</button>
+            </div>
+        </ul>
+    </div>
+      
+
+
+    <div class="content">
+      <img src="img/map.png" class="map" usemap="#image-map">
+      <map name="image-map">
+        <area target="" onclick="map_interacion('c_tatinho')" alt="Casa de oTatinho" title="Casa de oTatinho" href="#" coords="888,645,966,739" shape="rect"></area>
+        <area target="" onclick="map_interacion('v_fonte')" alt="Fonte da Praça" title="Fonte da Praça" href="#" coords="897,544,962,611" shape="rect"></area>
+        <area target="" onclick="map_interacion('c_sofia')" alt="Casa de Sofiagamer2202" title="Casa de Sofiagamer2202" href="#" coords="919,386,979,439" shape="rect"></area>
+        <area target="" onclick="map_interacion('v_farm')"alt="Fazenda da Vila" title="Fazenda da Vila" href="#" coords="866,278,1017,405" shape="rect"></area>
+        <area target="" onclick="map_interacion('c_biaNina')" alt="Casa de biaTrufa e ninadoll" title="Casa de biaTrufa e ninadoll" href="#" coords="804,533,876,612" shape="rect"></area>
+        <area target="" onclick="map_interacion('c_bradulim')" alt="Casa de Bradulimkk" title="Casa de Bradulimkk" href="#" coords="1192,580,1319,710" shape="rect"></area>
+        <area target="" onclick="map_interacion('v_estufa')" alt="Estufa" title="Estufa" href="#" coords="772,611,861,689" shape="rect"></area>
+        <area target="" onclick="map_interacion('v_tom')" alt="Lápide de Tom" title="Lápide de Tom" href="#" coords="858,417,906,456" shape="rect"></area>
+        <area target="" onclick="map_interacion('c_mika')" alt="Casa de mikanalha" title="Casa de mikanalha" href="#" coords="696,329,767,386" shape="rect"></area>
+      </map>
+    </div>
+
+      
+
+
 
     <div class="container">
 
@@ -64,7 +97,7 @@
     </div>
 
 
-    <script src="js/home.js"></script>
+    <script src="js/map.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
