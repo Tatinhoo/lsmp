@@ -32,10 +32,10 @@
                 <a class="nav-link" aria-current="page" href="participantes.html"><h5>⠀Participantes</h5></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><h5>⠀Clipes</h5></a>
+                <a class="nav-link" href="clipes.html"><h5>⠀Clipes</h5></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><h5>⠀Prints</h5></a>
+                <a class="nav-link" href="prints.html"><h5>⠀Prints</h5></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="map.html"><h5>⠀Mapa</h5></a>
@@ -48,7 +48,7 @@
       <div class="sidebar" id="sidebar">
         <ul>
             <div class="options">
-                <img src="img/participantes/eh.png" height="250px" alt="">
+                <img id="map-local-image" onmouseover="doge()" src="img/participantes/eh.png" height="180px" alt="">
                 <li><h2 id="map-local-name">Nome do Lugar</h2></li>
                 <br>
                 <li><h5 id="map-local-description">descrição</h5></li>
@@ -63,16 +63,25 @@
     <div class="content">
       <img src="img/map.png" class="map" usemap="#image-map">
       <map name="image-map">
-        <area target="" onclick="map_interacion('c_tatinho')" alt="Casa de oTatinho" title="Casa de oTatinho" href="#" coords="888,645,966,739" shape="rect"></area>
-        <area target="" onclick="map_interacion('v_fonte')" alt="Fonte da Praça" title="Fonte da Praça" href="#" coords="897,544,962,611" shape="rect"></area>
-        <area target="" onclick="map_interacion('c_sofia')" alt="Casa de Sofiagamer2202" title="Casa de Sofiagamer2202" href="#" coords="919,386,979,439" shape="rect"></area>
-        <area target="" onclick="map_interacion('v_farm')"alt="Fazenda da Vila" title="Fazenda da Vila" href="#" coords="866,278,1017,405" shape="rect"></area>
-        <area target="" onclick="map_interacion('c_biaNina')" alt="Casa de biaTrufa e ninadoll" title="Casa de biaTrufa e ninadoll" href="#" coords="804,533,876,612" shape="rect"></area>
-        <area target="" onclick="map_interacion('c_bradulim')" alt="Casa de Bradulimkk" title="Casa de Bradulimkk" href="#" coords="1192,580,1319,710" shape="rect"></area>
-        <area target="" onclick="map_interacion('v_estufa')" alt="Estufa" title="Estufa" href="#" coords="772,611,861,689" shape="rect"></area>
-        <area target="" onclick="map_interacion('v_tom')" alt="Lápide de Tom" title="Lápide de Tom" href="#" coords="858,417,906,456" shape="rect"></area>
-        <area target="" onclick="map_interacion('c_mika')" alt="Casa de mikanalha" title="Casa de mikanalha" href="#" coords="696,329,767,386" shape="rect"></area>
-        <area target="" onclick="map_interacion('doge')" alt="????" title="????" href="#" coords="214,160,322,230" shape="rect"></area>
+        <area target="" onclick="map_interacion('c_tatinho')" alt="Casa de oTatinho" title="Casa de oTatinho" href="#" coords="838,656,892,590" shape="rect">
+        <area target="" onclick="map_interacion('c_mika2')" alt="Manicômio de mikanalha" title="Manicômio de mikanalha" href="#" coords="789,576,837,637" shape="rect">
+        <area target="" onclick="map_interacion('c_biaNina')" alt="Casa de ninadoll e biaTrufa" title="Casa de ninadoll e biaTrufa" href="#" coords="754,472,805,540" shape="rect">
+        <area target="" onclick="map_interacion('v_fonte')" alt="Praça da Prefeitura" title="Praça da Prefeitura" href=#" coords="839,476,895,534" shape="rect">
+        <area target="" onclick="map_interacion('v_cemiterio')" alt="Cemitério da Vila" title="Cemitério da Vila" href="#" coords="767,678,833,727" shape="rect">
+        <area target="" onclick="map_interacion('v_estufa')" alt="Estufa da Vila" title="Estufa da Vila" href="#" coords="721,546,786,610" shape="rect">
+        <area target="" onclick="map_interacion('v_prefeitura')" alt="Prefeitura da Vila" title="Prefeitura da Vila" href="#" coords="934,354,989,426" shape="rect">
+        <area target="" onclick="map_interacion('v_ritual')" alt="Ritual da Prefeitura" title="Ritual da Prefeitura" href="#" coords="852,789,804,751" shape="rect">
+        <area target="" onclick="map_interacion('v_biblioteca')" alt="Biblioteca da Vila" title="Biblioteca da Vila" href="#" coords="1135,655,1219,737" shape="rect">
+        <area target="" onclick="map_interacion('c_sofia')" alt="Casa de Sofiagamer2202" title="Casa de Sofiagamer2202" href="#" coords="860,366,910,326" shape="rect">
+        <area target="" onclick="map_interacion('v_farm')" alt="Fazenda da Vila" title="Fazenda da Vila" href="#" coords="808,215,953,334" shape="rect">
+        <area target="" onclick="map_interacion('v_beach')" alt="Copacabana 2 Beach" title="Copacabana 2 Beach" href="#" coords="1367,724,1465,840" shape="rect">
+        <area target="" onclick="map_interacion('c_mari')" alt="Casa de marianamachado" title="Casa de marianamachado" href="#" coords="705,301,778,368" shape="rect">
+        <area target="" onclick="map_interacion('c_andre')" alt="Casa de andre_detona" title="Casa de andre_detona" href="#" coords="1236,690,1295,751" shape="rect">
+        <area target="" onclick="map_interacion('v_porto')" alt="Porto da Vila" title="Porto da Vila" href="#" coords="550,759,638,865" shape="rect">
+        <area target="" onclick="map_interacion('c_pietra')" alt="Casa de ipietra" title="Casa de ipietra" href="#" coords="912,509,1002,587" shape="rect">
+        <area target="" onclick="map_interacion('c_mika')" alt="Ex-Bueiro de mikanalha" title="Ex-Bueiro de mikanalha" href="#" coords="643,265,704,330" shape="rect">
+        <area target="" onclick="map_interacion('c_mina')" alt="Casa de minxxsz (em construção)" title="Casa de minxxsz (em construção)" href="#" coords="904,590,986,672" shape="rect">
+        <area target="" onclick="map_interacion('doge')" alt="Bolso Doge" title="Bolso Doge" href="#" coords="158,93,240,162" shape="rect">
       </map>
     </div>
 
@@ -88,6 +97,9 @@
 
             </div>
             <div class="col-8">
+              <div class="creditos">
+                <h3 style="text-align: center; color: white; font-family: 'Minecraft', sans-serif;">Imagens do mapa por <a href = 'participantes.html'>biaTrufa</a> e <a href = 'participantes.html'>Pietra</a></h3>
+              </div>
             </div>
             <div class="col-2">
 
