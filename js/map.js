@@ -1,7 +1,12 @@
 var lugarNome = document.getElementById("map-local-name")
 var lugarDesc = document.getElementById("map-local-description")
 var lugarImage = document.getElementById("map-local-image")
-var doge = 0
+var background_music = document.getElementById("background-music")
+
+background_music.play()
+background_music.volume = 0.4
+
+
 
 function map_interacion(local){
 
